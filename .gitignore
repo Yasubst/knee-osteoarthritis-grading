@@ -1,0 +1,20 @@
+# Ignore X-ray images, but keep reproducible CSV splits
+data/archive/
+
+# Model checkpoints and training outputs
+sessions/
+out/
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# Editor and system files
+.vscode/
+.DS_Store
